@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>My blog</title>
+    <meta content="" name="description"/>
+    <meta comtent="" name="keywords"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="./assets/styles/main.min.css"/>
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="preloader__pic" id="preloader__pic">
+        <svg class="preloader__icon" id="preloader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="144px" height="144px" viewBox="0 0 144 144" enable-background="new 0 0 144 144" xml:space="preserve">
+          <circle opacity="0.4" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="0" cx="72" cy="71.999" r="70"></circle>
+          <circle opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="3.8938" stroke-miterlimit="0" cx="72" cy="72" r="55"></circle>
+          <circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="0" cx="72" cy="72" r="40"></circle>
+        </svg>
+        <div class="preloader__text" id="percent__text">0</div>
+      </div>
+    </div>
+    <section class="top_section blog__top">
+      <div class="blog_container"> 
+        <div class="video_back_blog">   
+          <video class="video_back" autoplay="autoplay" object-fit="cover"> 
+            <source src="assets/images/common/night.mp4"/>
+          </video>
+        </div><img class="mountains_back" src="assets/images/common/mountains.png" alt="1"/>
+        <div class="header__socials">
+          <ul class="socials">
+            <li class="socials__item"><a class="socials__link" href="https://vk.com/miss_smile1">   
+                <svg class="icon socials__icon">
+                  <use class="socials__link" xlink:href="assets/svg/sprite.svg#vk">  </use>
+                </svg></a></li>
+            <li class="socials__item"><a class="socials__link" href="https://github.com/mariatarasenko">      
+                <svg class="icon socials__icon">
+                  <use class="socials__link" xlink:href="assets/svg/sprite.svg#github">  </use>
+                </svg></a></li>
+            <li class="socials__item"><a class="socials__link" href="https://www.linkedin.com/in/maria-tarasenko-a4571914a/">      
+                <svg class="icon socials__icon">
+                  <use xlink:href="assets/svg/sprite.svg#in"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+        <div class="header__menu_blog">
+          <div class="hamburger">
+            <div class="hamburger__top"></div>
+            <div class="hamburger__middle"></div>
+            <div class="hamburger__bottom"></div>
+          </div>
+        </div>
+        <section class="nav__menu_hidden">
+          <ul class="menu">
+            <li class="menu__item"><a class="subtitle menu_title" href="index.html">Main page</a></li>
+            <li class="menu__item"><a class="subtitle menu_title" href="about_me.html">About me</a></li>
+            <li class="menu__item"><a class="subtitle menu_title" href="my_works.html">My works</a></li>
+            <li class="menu__item"><a class="subtitle menu_title" href="blog.html">Blog</a></li>
+          </ul>
+        </section>
+        <div class="background__left"></div>
+        <div class="backround__right"></div>
+        <div class="user_blog">   
+          <div class="user__top">
+            <svg class="svg_white_transp svg_blog_top">
+              <use xlink:href="assets/svg/sprite.svg#stars1"></use>
+            </svg>
+            <div class="blog__title_content">
+              <div class="user__circle user__pic"><img class="user__circle_img" src="assets/images/common/user.jpg" alt="user"/></div>
+              <div class="main_title blog__title">Blog</div>
+              <p class="blog__title_desc blog_text_white">Articles that I wrote</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog__triangle_section">
+      <div class="top_icon"> 
+        <svg class="triangle_blog about__triangle_left svg_white_bg" viewBox="0 0 1000 100" preservaspectratio="none">
+          <polygon points="0,0 0,100 500,100"></polygon>
+        </svg>
+        <svg class="triangle_blog about__triangle_right svg_white_bg" viewBox="0 0 1000 100" preservaspectratio="none">
+          <polygon points="500,100 1000,0 1000,100"></polygon>
+        </svg>
+      </div>
+    </section>
+    <section class="blog__content">
+      <div class="mobile_articles">
+        <ul class="articles__list"> 
+          <li class="articles__item"><a class="title_text active article_first" href="#article_first">The most important things in SASS</a></li>
+          <li class="articles__item blog_text"><a class="title_text article_second" href="#article_second">7 Essential JavaScript Functions </a></li>
+          <li class="articles__item blog_text"><a class="title_text article_third" href="#article_third">The most essential set of Gulp plugins</a></li>
+          <li class="articles__item blog_text"><a class="title_text article_fourth" href="#article_fourth">Why I chose Jade</a></li>
+        </ul>
+        <div class="mobile_articles_button"></div>
+      </div>
+      <aside class="articles absolute">
+        <ul class="articles__list"> 
+          <li class="articles__item"><a class="title_text active article_first" href="#article_first">The most important things in SASS</a></li>
+          <li class="articles__item blog_text"><a class="title_text article_second" href="#article_second">7 Essential JavaScript Functions </a></li>
+          <li class="articles__item blog_text"><a class="title_text article_third" href="#article_third">The most essential set of Gulp plugins</a></li>
+          <li class="articles__item blog_text"><a class="title_text article_fourth" href="#article_fourth">Why I chose Jade</a></li>
+        </ul>
+      </aside>
+      <ul class="articles__content"> 
+        <li class="articles__content_item" id="article_first">
+          <div class="article_title">The most important things in SASS</div>
+          <div class="article_date">22 of November 2017</div>
+          <p class="article_content blog_text">  If we define variable inside the rule it will be available only inside that rule without bloating the global scope. And even more — if we are not sure variable has already been defined somewhere, we use !default keyword in its declaration which says — if value exists in the outer scope then use it else please use this new value.One more mixin’s parameters feature is variable declaration which behaves same as ES6 spread operator. It allows us instead of passing each parameter to mixin individually just pass a list or a map(where map is similar to JS object) and values will be assigned automatically.</p>
+          <p class="article_content blog_text">So mixins give us great opportunity to pass declaration values(inline, block, #fffff, etc) or even property names(margin-right, color…) but what if we want to pass the whole SCSS block, not only parts of it? We can use content keyword.And what is cool here is that it actually allows me to stop searching for ‘media’ string in IDE each time I wanted to copy and past media query syntax into my code. I don’t need it anymore.</p><img class="article_photo" src="assets/images/works/snippet.jpg" alt="232"/>
+        </li>
+        <li class="articles__content_item" id="article_second">
+          <div class="article_title">7 Essential JavaScript Functions </div>
+          <div class="article_date">13 of November 2017</div>
+          <p class="article_content blog_text">I remember the early days of JavaScript where you needed a simple function for just about everything because the browser vendors implemented features differently, and not just edge features, basic features, like addEventListener and attachEvent.  Times have changed but there are still a few functions each developer should have in their arsenal, for performance for functional ease purposes.</p>
+          <p class="article_content blog_text">JavaScript, along with HTML5 and CSS3, is nowadays used widely by developers for developing responsive web applications that look good on both desktop computers and mobile devices. Despite being a client-side scripting language, JavaScript provides a number of features that help users to build robust websites without writing longer lines of code. Also, JavaScript enables programmers to reducing coding time by using a variety of pre-built functions. As a group of reusable code, functions allow programmers to make the codebase modular, and avoid writing the same piece of code repeatedly. The programmers also have option to take advantage of several pre-built functions in JavaScript.</p>
+        </li>
+        <li class="articles__content_item" id="article_third">
+          <div class="article_title">The most essential set of Gulp plugins</div>
+          <div class="article_date">20 of October 2017</div>
+          <p class="article_content blog_text"> As a novice frontend developer, an obvious important step is to become familiar with the tools that help your colleagues not to lose their minds in this really challenging field: writing more flexible CSS code using Saas. You are entitled to the opportunity to optimize the transmission speed of the JS files through minification. You have also earned the luxury of automatic JS validation with JSHint.You've earned all these wonderful things.</p>
+          <p class="article_content blog_text">And so, you start using all the great tools and you have to manually run a huge number of instructions on the command line. From time to time, you forget to run the Sass compiler... Sometimes you forget to run JSHint and miss another bug...And one day you will wonder: is there a way to automate all these tools? How to set up a reliable workflow and avoid most errors? Of course there is a solution and tools that are just waiting for the moment when your hands get to them: Webpack and Gulp. </p>
+        </li>
+        <li class="articles__content_item" id="article_fourth">
+          <div class="article_title">Why I chose Jade</div>
+          <div class="article_date">12 of October 2017</div>
+          <p class="article_content blog_text">Jade, initially pushed me away with its syntax, it's still not html, just structured tags. No opening / closing tags - and it's wild at first, but very quickly you realize that it's convenient. And of course - it is the presence of good documentation - for any developer-it is very important.</p>
+          <p class="article_content blog_text">Another big plus in favor of Jade - is the inheritance of templates! It's super easy (pardon the slang, but it's true). To understand this, look at the views folder from the previous post. We have two files in it - a layout-a basic template that describes the entire structure and index file that inherits from layout (extensions layout) and overrides the content block. Just imagine how much time you save when creating a website.</p>
+        </li>
+      </ul>
+    </section>
+    <footer class="footer">
+      <div class="footer_row footer__top">
+        <div class="footer__part footer__part_right">
+          <div class="footer__descr descr_content footer__descr_right">
+            <p>“Talk is cheap. Show me the code.”  </p>
+            <p>Linus Torvalds</p>
+          </div>
+        </div>
+        <div class="footer__part footer__part_left">
+          <div class="footer__col footer__col_middle">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="descr_content_text menu__item_footer"><a class="menu__link" href="my_works.html">My works </a></li>
+                <li class="descr_content_text menu__item_footer"><a class="menu__link" href="about_me.html">About me</a></li>
+                <li class="descr_content_text menu__item_footer"><a class="menu__link" href="blog.html">Blog</a></li>
+                <li class="descr_content_text menu__item_footer"><a class="menu__link" href="index.html">Authorization</a></li>
+              </ul>
+            </nav>
+            <ul class="my_contacts">
+              <li class="my_contacts__icons"><a class="my_contacts__link" href="https://vk.com/miss_smile1">
+                  <svg class="icon_footer icon socials__icon">
+                    <use xlink:href="assets/svg/sprite.svg#vk"></use>
+                  </svg></a></li>
+              <li class="my_contacts__icons"> <a class="my_contacts__link" href="https://github.com/mariatarasenko">
+                  <svg class="icon_footer icon socials__icon">
+                    <use xlink:href="assets/svg/sprite.svg#github"></use>
+                  </svg></a></li>
+              <li class="my_contacts__icons"> <a class="my_contacts__link" href="https://www.linkedin.com/in/maria-tarasenko-a4571914a/">
+                  <svg class="icon_footer icon socials__icon">
+                    <use xlink:href="assets/svg/sprite.svg#in"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col_left">
+            <div class="footer__descr footer__descr_contacts">
+              <p class="descr_content_text">matarasenko</p>
+              <p class="descr_content_text">mariaatarasenko@gmail.com</p>
+              <p class="descr_content_text">+7 999 344 33 34</p>
+              <p class="descr_content_text">Warsaw</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_row footer__bottom">
+        <div class="footer__bottom_content">© Tarasenko Maria | Made with love in LoftSchool | 2017</div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8D3sTkxvD9zcoQtr2fCyKSxfe6noB4no&amp;callback=initMap"></script>
+    <script src="assets/scripts/bundle.js">                            </script>
+  </body>
+</html>

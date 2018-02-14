@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Authorization</title>
+    <meta content="" name="description"/>
+    <meta comtent="" name="keywords"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="./assets/styles/main.min.css"/>
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="preloader__pic" id="preloader__pic">
+        <svg class="preloader__icon" id="preloader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="144px" height="144px" viewBox="0 0 144 144" enable-background="new 0 0 144 144" xml:space="preserve">
+          <circle opacity="0.4" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="0" cx="72" cy="71.999" r="70"></circle>
+          <circle opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="3.8938" stroke-miterlimit="0" cx="72" cy="72" r="55"></circle>
+          <circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="0" cx="72" cy="72" r="40"></circle>
+        </svg>
+        <div class="preloader__text" id="percent__text">0</div>
+      </div>
+    </div>
+    <section class="section top_section avto_section wel_container">
+      <div class="welcome">
+        <div class="avto__welcome">
+          <div class="sign_in">
+            <div class="avto__title">Sing in</div>
+            <form class="avto_form">
+              <div class="form__wrap">
+                <div class="label_container">
+                  <div class="label_wrap">
+                    <label class="signin__label" for="login">
+                      <div class="label__icon login">
+                        <svg class="svg_gray">
+                          <use xlink:href="assets/svg/sprite.svg#login"></use>
+                        </svg>
+                      </div>
+                      <input class="label__input" id="email" name="login" placeholder="Логин"/>
+                    </label>
+                  </div>
+                  <div class="label_wrap">
+                    <label class="signin__label" for="password">
+                      <div class="label__icon password">
+                        <svg class="svg_gray">
+                          <use xlink:href="assets/svg/sprite.svg#password"></use>
+                        </svg>
+                      </div>
+                      <input class="label__input" id="password" name="password" placeholder="Пароль"/>
+                    </label>
+                  </div>
+                </div>
+                <div class="signin__buttons">
+                  <div class="signin__checkbox">
+                    <input class="robot__check" id="robot__check" type="checkbox" name="robot-check"/>
+                    <label class="check__label" for="robot__check">I'm human
+                      <svg class="check__label_icon">
+                        <use xlink:href="./images/sprite/mySprite.min.svg#check"></use>
+                      </svg>
+                    </label>
+                  </div>
+                  <div class="signin__radio">
+                    <div class="robot__quest">Are you sure you're not a robot?</div>
+                    <div class="robot__radio">
+                      <input class="robot__radio_tag" id="yes" name="anwsr" type="radio"/>
+                      <label class="radio__label" for="yes">Yes</label>
+                    </div>
+                    <div class="robot__radio">
+                      <input class="robot__radio_tag" id="not-sure" name="anwsr" type="radio"/>
+                      <label class="radio__label" for="not-sure">Not sure</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="avto__links">
+              <div class="avto__link wel__menu_item"><a class="avto__link_one" href="main.html"></a>
+                <div class="avto__link_descr">Main page</div>
+              </div>
+              <div class="avto__link wel__menu_item"><a class="avto__link_one" href="main.html"></a>
+                <div class="avto__link_descr">Log in</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="welcome__footer">
+      <div class="welcome__descr descr_content">
+        <p>© Maria Tarasenko | made with love in LoftSchool | 2017</p>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8D3sTkxvD9zcoQtr2fCyKSxfe6noB4no&amp;callback=initMap"></script>
+    <script src="assets/scripts/bundle.js">                            </script>
+  </body>
+</html>
